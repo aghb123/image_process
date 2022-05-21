@@ -14,4 +14,4 @@ plt.imshow(lena, cmap=plt.cm.gray)
 plt.show()
 
 # 图像保存
-cv2.imwrite("image/lena.png", lena)
+cv2.imwrite("../image/lena.png", lena)
