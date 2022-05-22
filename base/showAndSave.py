@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # lena = cv2.imread('lena.jpg')
-lena = cv2.imread('lena.jpg', 0)
+lena = cv2.imread('../image/lena.jpg', 0)
 # cv2.imshow("image", lena)
 # cv2.waitKey(0)
 

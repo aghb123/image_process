@@ -14,7 +14,7 @@ print(img.shape)
 print(img.dtype)
 print(img.size)
 
-img = cv.imread("lena.jpg")
+img = cv.imread("../image/lena.jpg")
 # 图像通道的拆分与合并
 b, g, r = cv.split(img)
 # plt.imshow(b, cmap=plt.cm.gray)
