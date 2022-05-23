@@ -22,5 +22,12 @@ absy = cv.convertScaleAbs(y)
 
 res = cv.addWeighted(absx, 0.5, absy, 0.5, 0)
 
+# Laplacian算子
+res = cv.Laplacian(img, cv.CV_16S)
+res = cv.convertScaleAbs(res)
+
+# Canny
+res = cv.Canny(img, 0, 100)
+
 plt.imshow(res, cmap=plt.cm.gray)
 plt.show()
